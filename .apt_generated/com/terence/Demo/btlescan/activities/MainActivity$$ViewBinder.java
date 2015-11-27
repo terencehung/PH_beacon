@@ -10,21 +10,21 @@ public class MainActivity$$ViewBinder<T extends com.terence.Demo.btlescan.activi
     View view;
     view = finder.findRequiredView(source, 2131296349, "field 'mTvItemCount'");
     target.mTvItemCount = finder.castView(view, 2131296349, "field 'mTvItemCount'");
-    view = finder.findRequiredView(source, 16908292, "field 'mEmpty'");
-    target.mEmpty = view;
     view = finder.findRequiredView(source, 2131296346, "field 'mTvBluetoothStatus'");
     target.mTvBluetoothStatus = finder.castView(view, 2131296346, "field 'mTvBluetoothStatus'");
-    view = finder.findRequiredView(source, 2131296351, "field 'mList'");
-    target.mList = finder.castView(view, 2131296351, "field 'mList'");
     view = finder.findRequiredView(source, 2131296345, "field 'mTvBluetoothLeStatus'");
     target.mTvBluetoothLeStatus = finder.castView(view, 2131296345, "field 'mTvBluetoothLeStatus'");
+    view = finder.findRequiredView(source, 16908292, "field 'mEmpty'");
+    target.mEmpty = view;
+    view = finder.findRequiredView(source, 2131296351, "field 'mList'");
+    target.mList = finder.castView(view, 2131296351, "field 'mList'");
   }
 
   @Override public void unbind(T target) {
     target.mTvItemCount = null;
-    target.mEmpty = null;
     target.mTvBluetoothStatus = null;
-    target.mList = null;
     target.mTvBluetoothLeStatus = null;
+    target.mEmpty = null;
+    target.mList = null;
   }
 }
